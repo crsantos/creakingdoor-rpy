@@ -16,6 +16,12 @@ RPi Halloween creakingdoor script using Rpi + mpg123 + python + sensor
 
 ``sudo apt-get install mpg123``
 
+## RPi analog channel
+
+You'll need to change the sound channel from HDMI to analog (where 1 = analog and 2 = HDMI) typing:
+
+``amixer cset numid=3 1`` 
+
 ## Contact
 
 [@crsantos](http://www.twitter.com/crsantos)
